@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/simple-spa/static/css/main.edd6ccd6.css",
+    "main.js": "/simple-spa/static/js/main.b64f01d1.js",
+    "static/js/787.4dc12866.chunk.js": "/simple-spa/static/js/787.4dc12866.chunk.js",
+    "static/media/about.jpg": "/simple-spa/static/media/about.2e6f0258c430296842b9.jpg",
+    "static/media/home.jpg": "/simple-spa/static/media/home.f1f80353ca501d0498b9.jpg",
+    "static/media/jumbotron.jpg": "/simple-spa/static/media/jumbotron.b61ed5fe469538a6b7f2.jpg",
+    "static/media/contact-container.jpg": "/simple-spa/static/media/contact-container.d81d4f126577b57ca779.jpg",
+    "static/media/logo.svg": "/simple-spa/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/simple-spa/index.html",
+    "main.edd6ccd6.css.map": "/simple-spa/static/css/main.edd6ccd6.css.map",
+    "main.b64f01d1.js.map": "/simple-spa/static/js/main.b64f01d1.js.map",
+    "787.4dc12866.chunk.js.map": "/simple-spa/static/js/787.4dc12866.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edd6ccd6.css",
+    "static/js/main.b64f01d1.js"
+  ]
+}
