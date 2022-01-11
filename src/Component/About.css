@@ -1,0 +1,55 @@
+.aboutContainer {
+	background-image: url('../Image/about.jpg');
+	background-size: cover;
+}
+.aboutContainer .layer {
+	padding: 30px;
+	display: flex;
+	background-color: rgba(205, 134, 63, 0.308);
+	backdrop-filter: blur(5px);
+}
+.aboutContainer .card {
+	border-radius: 10px;
+	flex-basis: 50%;
+	box-shadow: 0px 5px 15px 0px #333;
+}
+.aboutContainer .card:first-child {
+	margin-right: 20px;
+}
+.aboutContainer .card .heading {
+	background-color: peru;
+	color: white;
+	padding: 15px 20px;
+	font-family: 'Acme', sans-serif;
+	border-radius: 10px 10px 0 0;
+}
+.aboutContainer .card .content {
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.815);
+	border-radius: 0 0 10px 10px;
+	font-family: 'DM Sans', sans-serif;
+}
+.aboutContainer p {
+	margin-bottom: 7px;
+	line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+	.aboutContainer .layer {
+		display: block;
+	}
+	.aboutContainer .card:first-child {
+		margin-right: 0px;
+		margin-bottom: 40px;
+	}
+}
+@media screen and (max-width: 426px) {
+	.aboutContainer .content p {
+		font-size: 14px;
+	}
+	.aboutContainer .layer {
+		padding: 15px;
+	}
+	.aboutContainer h1 {
+		font-size: 28px;
+	}
+}

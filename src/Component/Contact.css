@@ -1,0 +1,33 @@
+.contactContainer {
+	text-align: center;
+	background-image: url('../Image/contact-container.jpg');
+	background-size: cover;
+	height: 72.5vh;
+}
+.contactContainer .layer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	background-color: rgba(205, 134, 63, 0.308);
+	backdrop-filter: blur(5px);
+}
+.contactContainer li {
+	font-family: 'DM Sans', sans-serif;
+	list-style: none;
+	font-size: 20px;
+	color: white;
+}
+li i {
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+.contactContainer h2 {
+	margin-bottom: 10px;
+	color: white;
+	border-bottom: 3px solid bisque;
+	padding: 0 5px;
+	font-family: 'Acme';
+	font-size: 28px;
+}

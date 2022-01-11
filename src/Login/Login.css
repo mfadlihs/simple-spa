@@ -1,0 +1,61 @@
+.login-container {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.loginCard .heading {
+	background-color: peru;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	border-radius: 10px 10px 0 0;
+	font-size: 24px;
+}
+.loginCard {
+	background-color: bisque;
+	border-radius: 10px;
+	width: 400px;
+	box-shadow: 0px 10px 10px -8px #222;
+}
+.loginCard .content {
+	padding: 10px 20px;
+}
+.loginCard label {
+	font-size: 14px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	display: inline-block;
+}
+.loginCard input {
+	padding: 5px;
+	font-size: 19px;
+	border: 3px solid peru;
+	border-radius: 10px;
+	width: 100%;
+}
+.loginCard .username,
+.loginCard .password {
+	margin-bottom: 10px;
+}
+.loginCard button {
+	float: right;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: peru;
+	color: white;
+	border: 3px solid white;
+	margin-bottom: 10px;
+	box-shadow: 0px 5px 10px -5px #222;
+}
+.loginCard button:hover {
+	cursor: pointer;
+}
+.loginCard button:active {
+	box-shadow: none;
+	transform: translateY(5px) scale(0.97);
+}
+.clear {
+	clear: both;
+}

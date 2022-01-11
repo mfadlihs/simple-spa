@@ -1,0 +1,10 @@
+.articleContainer {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.articleContainer progress {
+	display: block;
+	margin-top: 180px;
+}

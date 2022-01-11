@@ -1,0 +1,43 @@
+.articleDetail img {
+	width: 425px;
+	height: 260px;
+	margin-bottom: 10px;
+	object-fit: cover;
+}
+.articleDetail {
+	text-align: center;
+	margin: auto;
+	padding: 20px 0;
+	justify-content: center;
+
+	display: flex;
+}
+.articleDetail h1 {
+	margin-bottom: 10px;
+}
+.articleDetail article {
+	max-width: 425px;
+	margin-right: 40px;
+}
+
+.articleDetail aside {
+	max-width: 425px;
+}
+
+@media screen and (max-width: 426px) {
+	.articleDetail {
+		display: block;
+		padding: 20px 20px 40px 20px;
+	}
+	.articleDetail article {
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+	.articleDetail img {
+		width: 380px;
+		height: 250px;
+	}
+	.articleDetail ol {
+		list-style: none;
+	}
+}

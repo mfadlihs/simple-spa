@@ -1,0 +1,13 @@
+.articleMenu {
+	text-align: center;
+	padding: 30px 0;
+}
+
+.articleMenu h1 {
+	margin-bottom: 10px;
+}
+
+.articleMenu .list {
+	line-height: 1.65;
+	font-size: 20px;
+}

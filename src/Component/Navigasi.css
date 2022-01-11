@@ -1,0 +1,48 @@
+nav {
+	display: flex;
+	background-color: peru;
+	padding: 10px 10px 10px 10px;
+	width: 100%;
+}
+
+nav div a {
+	display: block;
+	padding: 6px 8px;
+	color: white;
+	text-decoration: none;
+	border-bottom: 3px solid bisque;
+	margin-right: 40px;
+}
+nav > div:first-child {
+	margin-left: 30px;
+}
+
+nav div a:hover {
+	cursor: pointer;
+	color: peru;
+	transition: all 0.4s;
+	background-color: bisque;
+}
+
+@media screen and (max-width: 600px) {
+	nav > div:first-child {
+		margin-left: 0;
+	}
+	nav {
+		justify-content: space-around;
+	}
+	nav > div {
+		display: flex;
+		align-self: center;
+		justify-self: center;
+	}
+	nav div a {
+		margin-right: 0;
+		/* font-size: 13px; */
+	}
+}
+@media screen and (max-width: 375px) {
+	nav div a {
+		font-size: 13px;
+	}
+}

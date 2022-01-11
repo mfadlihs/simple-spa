@@ -1,0 +1,33 @@
+header {
+	height: 150px;
+	font-family: 'Acme', sans-serif;
+	position: relative;
+}
+
+header .imageContainer {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+header .imageContainer img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+header .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	position: absolute;
+	width: 100%;
+	background-color: rgba(205, 134, 63, 0.6);
+	height: 100%;
+	backdrop-filter: blur(4px);
+}
+
+@media screen and (max-width: 375px) {
+	header h1 {
+		font-size: 28px;
+	}
+}
